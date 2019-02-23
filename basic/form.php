@@ -1,0 +1,25 @@
+<?php 
+$name = $_GET['fname'];
+$lastname = $_GET['lname'];
+
+echo $name.''.$lastname;
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form page</title>
+</head>
+<body>
+    <form action="form.php" method="get">
+    Name: <input type="text" name="fname">
+    Lastname: <input type="text" name="lname">
+    <input type="submit" value="OK">
+    </form>
+</body>
+</html>
